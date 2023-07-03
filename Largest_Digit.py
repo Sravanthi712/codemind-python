@@ -1,9 +1,3 @@
-a=int(input())
-max=0
-while a>0:
-    r=a%10
-    if(r>max):
-        max=r
-    a=a//10
-print(max)
-    
+n=int(input())
+l=list(map(int,str(n)))
+print(max(l))
