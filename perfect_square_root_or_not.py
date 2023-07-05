@@ -1,9 +1,7 @@
 n=int(input())
-f=0
-for i in range(n):
-    if(i*i==n):
-        f=1
-        print("True")
-        break
-if(f==0):
+s=int(n**0.5)
+z=n**0.5
+if s==z:
+    print("True")
+else:
     print("False")
